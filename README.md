@@ -24,8 +24,8 @@ A Python-based GUI application that monitors network connections, allows blockin
 ## Installation
 
 - Clone this repository:
-- git clone https://github.com/pleomati/network-connection-monitor.git
-- cd network-connection-monitor
+- git clone https://github.com/pleomati/NetworkAppMonitor.git
+- cd NetworkAppMonitor
 - Install the required dependencies:
 - pip install -r requirements.txt
 - Run the application:
