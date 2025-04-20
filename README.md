@@ -23,31 +23,31 @@ A Python-based GUI application that monitors network connections, allows blockin
 
 ## Installation
 
-1. Clone this repository:
-   git clone https://github.com/yourusername/network-connection-monitor.git
-   cd network-connection-monitor
-2.Install the required dependencies:
-   pip install -r requirements.txt
-3.Run the application:
-   python NetworkAppMonitor.py
+- Clone this repository:
+- git clone https://github.com/pleomati/network-connection-monitor.git
+- cd network-connection-monitor
+- Install the required dependencies:
+- pip install -r requirements.txt
+- Run the application:
+- python NetworkAppMonitor.py
 
-Usage:
-1.Start Monitoring: Click the "Start" button to begin monitoring network connections.
-2.Adjust Interval: Set the refresh interval in seconds.
-3.Block IPs/Apps: Right-click on a connection to block/unblock IPs or applications.
-4.Logging: Enable logging to save connection data to a CSV file.
-5.System Tray: Minimize to system tray for background monitoring.
+## Usage:
+- Start Monitoring: Click the "Start" button to begin monitoring network connections.
+- Adjust Interval: Set the refresh interval in seconds.
+- Block IPs/Apps: Right-click on a connection to block/unblock IPs or applications.
+- Logging: Enable logging to save connection data to a CSV file.
+- System Tray: Minimize to system tray for background monitoring.
 
-Command Line Options:
-Run the application with administrator privileges for full functionality (IP/application blocking).
+## Command Line Options:
+- Run the application with administrator privileges for full functionality (IP/application blocking).
 
-Configuration:
-1.Blocked IPs and applications are saved in blocked_ips.json and blocked_apps.json.
-2.Language can be changed from the menu (English/Polish).
+## Configuration:
+- Blocked IPs and applications are saved in blocked_ips.json and blocked_apps.json.
+- Language can be changed from the menu (English/Polish).
 
-Troubleshooting:
-1.If IP/application blocking doesn't work, ensure you're running as administrator.
-2.Some features require Windows Firewall to be acttive
+## Troubleshooting:
+- If IP/application blocking doesn't work, ensure you're running as administrator.
+- Some features require Windows Firewall to be acttive
 
 License
 MIT License
